@@ -13,5 +13,5 @@ Then in a seperate terminal I run the below ngrok command to open a path to that
 ./ngrok http 5000
 ```
 
-And because my Alexa skill is setup, I can then control the map. Pretty cool!
+Then I navigate to edit the skill in the Amazon developper portal, and put the ngrok endpoint into the skill. Because ngrok creates a new link each time it is run, I have to update the link each time I want to run the service. At some point I'll move to a permanent endpoint, but while I'm testing this I'm ok updating the endpoint each time I use it.
 https://developer.amazon.com/alexa/console/ask
